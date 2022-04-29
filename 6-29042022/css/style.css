@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#filmes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+#filmes div {
+  width: 15%;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #ddd;
+  border: 1px solid #ddd;
+  background-color: white;
+  transition: ease 1s;
+}
+
+#filmes div img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: 1px #ddd;
+}
+.voto {
+  background-color: #000;
+  color: #fff;
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -20px;
+  /*para traser a bolinha para frente, altere o empilhamento com z-index com o valor alto*/
+  z-index: 10000;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  border: 1px solid greenyellow;
+  box-shadow: 0px 0px 0px 2px #000;
+}
+h2 {
+  font-family: verdana;
+  font-size: 10pt;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.data {
+  text-align: center;
+  font-family: verdana;
+  font-size: 8pt;
+}
+
+#filmes div:hover {
+  cursor: pointer;
+  z-index: 100000;
+  transform: scale(1.5);
+  box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
+}
