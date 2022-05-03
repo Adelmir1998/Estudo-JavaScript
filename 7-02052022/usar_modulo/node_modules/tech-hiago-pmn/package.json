@@ -1,0 +1,16 @@
+{
+  "name": "tech-hiago-pmn",
+  "version": "1.0.1",
+  "description": "Primeiro Modulo NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "Estudo",
+    "Funcoes"
+  ],
+  "author": "Hiago Laureano",
+  "license": "ISC"
+}

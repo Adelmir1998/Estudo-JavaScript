@@ -1,0 +1,17 @@
+{
+  "name": "usar_modulo",
+  "version": "1.0.0",
+  "description": "Projeto para utilização de modulos criados por mim e meus colegas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Hiago laureano",
+  "license": "ISC",
+  "dependencies": {
+    "tech-hiago-pmn": "^1.0.0"
+  }
+}
